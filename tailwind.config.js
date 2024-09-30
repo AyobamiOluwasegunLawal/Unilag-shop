@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'lora': ['Lora', 'serif'],
+        'mont': ['Montserrat', 'sans-serif'],
       }
     },
   },

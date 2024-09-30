@@ -1,26 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base{
   body{
-    @apply font-lora
+    @apply font-mont
   }
   nav{
-    @apply  flex justify-between max-w-[80%] m-auto md:text-lg
-     py-8 
+    @apply  flex justify-between max-w-[80%] m-auto md:text-lg items-center
   }
   
 }
 
 @layer utilities{
   .nav-links{
-    @apply flex gap-[5rem]
+    @apply hidden md:flex gap-[5rem]
   }
 
   .cart-nav{
-    @apply flex gap-8 items-center
+    @apply flex gap-8 items-center 
   }
 }
